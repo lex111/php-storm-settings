@@ -1,0 +1,67 @@
+<templateSet group="JavaScript">
+  <template name="clr" value="console.log('$END$'); return false;" description="console with return false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log($END$);" description="console" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rf" value="return false;" description="return false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="()()" value="(function () {&#10;    'use strict';&#10;    &#10;    $END$&#10;    &#10;})();" description="Self invoking anonymous function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="al" value="alert('$END$');" description="alert" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="olp" value="var objName$END$ = {&#10;&#10;  //some property&#10;  myProperty: &quot;someValue&quot;,&#10; &#10;  // defining further object for module configuration:&#10;  myConfig: {&#10;    useCaching: true,&#10;    language: &quot;en&quot;&#10;  },&#10; &#10;  // a very basic method&#10;  saySomething: function () {&#10;    //do something awesome here...&#10;  },&#10;  //and more..&#10; &#10; &#10;};" description="Generate object literal js patterns" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rmp" value="var myRevealingModule$END$ = (function () {&#10; &#10;        var privateVar = &quot;Rexon&quot;,&#10;            publicVar = &quot;Hey there!&quot;;&#10; &#10;        function privateFunction() {&#10;            console.log( &quot;Name:&quot; + privateVar );&#10;        }&#10; &#10;        function publicSetName( strName ) {&#10;            privateVar = strName;&#10;        }&#10; &#10;        function publicGetName() {&#10;            privateFunction();&#10;        }&#10; &#10;        // Reveal public pointers to&#10;        // private functions and properties&#10;        return {&#10;            setName: publicSetName,&#10;            greeting: publicVar,&#10;            getName: publicGetName&#10;        };&#10; &#10;    })();" description="Generate Revealing module pattern" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifelse" value="if (someTrueHere$END$) {&#10;&#10;} else {&#10;&#10;}" description="Single block of if else" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifelseif" value="if ($END$) {&#10;&#10;} elseif () {&#10;&#10;} else {&#10;&#10;}" description="if with else if" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sw" value="switch ($END$) {&#10;  case 'strvalue1' :&#10;        //code goes here&#10;        break;&#10;  case 'strvalue2' :&#10;        //code goes here&#10;        break;&#10;  default:&#10;    //code goes here&#10;        break;&#10;    &#10;}" description="Switch block statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bower" value="{&#10;  &quot;name&quot;: &quot;your-app-name$END$&quot;,&#10;    &quot;authors&quot;: [&#10;    &quot;Your Fullname here &lt;yourEmail@gmail.com&gt;&quot;&#10;  ],&#10;  &quot;description&quot;:&quot;your descriptions&quot;,&#10;  &quot;version&quot;: &quot;0.0.0&quot;,&#10;  &quot;private&quot;: true,&#10;  &quot;dependencies&quot;: {&#10;    &quot;angular&quot;: &quot;1.x&quot;,&#10;    &quot;angular-route&quot;: &quot;1.x&quot;&#10;  }&#10;}" description="Creates bower templates" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="clt" value="console.log(typeof param$END$);" description="Console with typeof" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="var functionName$END$ = function(someParam) {&#10;    // Some code here..&#10;};" description="Named function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

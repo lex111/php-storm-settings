@@ -1,0 +1,5 @@
+<templateSet group="PHP">
+  <template name="dd" value="die(var_dump('rexon'));" description="vardump and die" toReformat="false" toShortenFQNames="true" />
+  <template name="vd" value="var_dump($END$); exit;" description="var_dump then exit" toReformat="false" toShortenFQNames="true" />
+  <template name="pr" value="print_r($END$);" description="print_r" toReformat="false" toShortenFQNames="true" />
+</templateSet>

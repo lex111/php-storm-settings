@@ -1,0 +1,10 @@
+<templateSet group="user">
+  <template name="cl" value="console.log(''); return false;" description="console" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="docs" value="/**&#10;* $END$&#10;* @param int $iVarName&#10;* @param string $sVarName&#10;* @return array&#10;*&#10;*/" description="doc blocks" toReformat="false" toShortenFQNames="true" />
+</templateSet>
