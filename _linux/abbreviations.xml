@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="Git.Branches">
+        <abbreviation name="bra" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
