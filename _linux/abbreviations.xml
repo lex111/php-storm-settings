@@ -4,6 +4,9 @@
       <action id="Git.Branches">
         <abbreviation name="br" />
       </action>
+      <action id="Annotate">
+        <abbreviation name="an" />
+      </action>
     </abbreviations>
   </component>
 </application>
